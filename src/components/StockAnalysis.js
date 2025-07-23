@@ -28,9 +28,8 @@ const stockAnalysis= ()=> {
       setLoading(false);
     }
   };
-
-  return(
-    <div>
+}
+  return(  <div>
       <h2>Stock Analysis</h2>
       <input
         type="text"
@@ -54,8 +53,7 @@ const stockAnalysis= ()=> {
             <li>Low: {analysisData.stockData.l}</li>
             <li>Volume: {analysisData.stockData.v}</li>
           </ul>
-          
-      )
-    </div>
-  )
-}
+          </div>
+        )}
+        </div>
+  )   
